@@ -1,0 +1,51 @@
+body {
+  background: rgb(180, 219, 195);
+}
+
+#container {
+  background: #070808;
+  height: 500px;
+  width: 500px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#child-container {
+  background-color: #016f32;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  color: goldenrod;
+}
+
+#message-el {
+  font-style: italic;
+}
+
+#player-el {
+  font-style: italic;
+}
+
+button {
+  color: #016f32;
+  width: 150px;
+  background: goldenrod;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
